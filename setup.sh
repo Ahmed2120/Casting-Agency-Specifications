@@ -7,6 +7,5 @@ export API_AUDIENCE="capstone"
 export ALGORITHMS=['RS256']
 export FLASK_APP=app.py
 export FLASK_ENV=development
-export TEST_DATABASE_URI="postgresql://postgres:ahmedpost@localhost:5432/casting"
-export DATABASE_URI="postgresql://postgres:ahmedpost@localhost:5432/casting"
+export SQLALCHEMY_DATABASE_URI="postgresql://postgres:ahmedpost@localhost:5432/casting"
 export NEW_VAR="Testing export"
